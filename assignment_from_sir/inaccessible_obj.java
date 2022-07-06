@@ -6,15 +6,15 @@ package assignment_from_sir;
 
 // Q.2 - Develop a public java class and make sure nobody can create any object of this class from outside the class.
 
-public class inaccessible_obj {
+public class inaccessible_obj {   // class
 	String name;
-	private inaccessible_obj() {
+	private inaccessible_obj() {    // private constructor
 		name = "Sankhajit";
 	}
 
-	public static void main(String[] args) {
-		inaccessible_obj obj = new inaccessible_obj();
-		System.out.print("My name is "+obj.name);
+	public static void main(String[] args) {    //  main method
+		inaccessible_obj obj = new inaccessible_obj();   // object
+		System.out.print("My name is "+obj.name);  // print output
 
 	}
 
