@@ -24,7 +24,7 @@ public class Employee {    // super class
     }
 }
 
-class Manager extends Employee{
+class Manager extends Employee{    // child class 1
 
     Manager(long id, String name, String address, long phone, double salary) {     // constructor inherit super class
 
@@ -37,7 +37,7 @@ class Manager extends Employee{
     }
 }
 
-class Trainee extends Employee{
+class Trainee extends Employee{     // child class 2
 
     Trainee(long id, String name, String address, long phone, double salary) {    // constructor inherit super class
         super(id, name, address, phone, salary);
@@ -49,8 +49,8 @@ class Trainee extends Employee{
     }
 }
 
-class InheritanceActivity{
-    public static void main(String[] args) {
+class InheritanceActivity{     // sub class
+    public static void main(String[] args) {    // main method
 
         System.out.println("\nMANAGER DETAILS : \n");
         Manager obj1 = new Manager(126534,"Peter","Chennai India",237844,65000);   // object for manager
@@ -63,7 +63,6 @@ class InheritanceActivity{
         System.out.println("Travel Allowance (15%): "+obj1.calculateTransportAllowance());    // called manager travel allowance method
 
         System.out.println("\n ----------------------------- \n");
-
 
         System.out.println("TRAINEE DETAILS : \n");
         Trainee obj2 = new Trainee(29846,"Jack","Mumbai India",442085,45000);    // object for trainee
