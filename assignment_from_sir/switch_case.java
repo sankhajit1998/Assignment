@@ -18,7 +18,7 @@ public class switch_case {   // class
 		case 1 : System.out.println("Switch Case is easy for Arnab.");
 		break;
 		
-		case 2 : System.out.println("Switch Case is easy for Arnab.");
+		case 2 : System.out.println("Switch Case is easy for Akash.");
 		break;
 		
 		case 3 : System.out.println("Switch Case is easy for Ranjan.");
